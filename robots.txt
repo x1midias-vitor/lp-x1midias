@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Disallow: /cases/
+
+# Específico para bots de busca
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://lp.anunciex1midias.com.br/sitemap.xml
+
+# Crawl-delay (opcional, pra não sobrecarregar o servidor)
+Crawl-delay: 1
